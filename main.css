@@ -1,0 +1,51 @@
+.opa{
+	position:absolute;
+	top: 80px;
+	opacity:1;
+	width:50vw;
+	left: 0;
+	height:calc(50vw/1.4);
+	float: left;
+}
+#banner{
+	background-image: url(assets/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	filter: brightness(50%);
+}
+#title1{
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	top:260px;
+	left: 190px;
+	text-shadow:5px 5px black;
+}
+
+.title2{
+	font-weight: bold;
+	text-align: center;
+	height:75px;
+	color: white;
+	background-color: #023047;
+	padding-top: 20px;
+
+}
+
+.tx1{
+	font-size: 18px;
+	font-weight:bold ;
+	padding-left: 650px;
+	padding-right: 40px;
+	padding-top: 250px;
+	z-index: 999;
+}
+
+#p2{
+	background-image: url(assets/ac1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

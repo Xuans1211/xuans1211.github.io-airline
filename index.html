@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>疫情衝擊航空業 機組人員執勤天數砍半 </title>
+</head>
+
+<body>
+  <div id="banner" style="height:200vh;">
+  </div>
+  <div id="title1">疫情衝擊航空業 機組人員執勤天數砍半 </div>
+  <div style="font-size: 25px;font-weight: bold;color: white;position: absolute;top: 650px;padding:0px 150px 0px">
+    Covid-19席捲全球、重創各國經濟，航空業首當其衝。
+    <br>國際航班驟減、機組人員放無薪假，疫情持續延燒，航空業期待復甦，似乎還需要一段時間。
+  </div>
+  </div>
+  <div id="outer" style="height:500vh;">
+    <div id="wrapper"class="sticky-top">
+      <H2 class="title2">空服員出勤少  隔離時間長 </H2>
+    <img id="ch1" class="opa" src="assets/calendar1.jpg"
+      style="z-index:4;" data-pos="1">
+    <img id="ch2"class="opa" src="assets/calendar2.jpg" style="z-index:3;" data-pos="2">
+    <img id="ch3"class="opa" src="assets/calendar3.jpg" style="z-index:1;" data-pos="3">
+    </div>
+    <div style="height:100vh;">
+    <div class="tx1 sticky-top" >
+      在國籍航空公司工作4年的空服員Emma(化名)表示，以前每個月大概可以飛2、3次長途航班、2次來回班。
+      
+
+    </div>
+    </div>
+    <div style="height:150vh">
+      <div class="tx1 sticky-top" >
+        疫情爆發後，班表就產生大幅變化，空服員的飛行時數，直接縮減成四分之一，每個月大概只能飛1次。
+        <br>因為空服員的月薪分為底薪與外站津貼，外站津貼會隨著空服員的飛行時數而決定，航班減少使得空服員的薪水被大幅削減。
+      </div>
+    </div>
+    <div style="height:150vh">
+      <div class="tx1 sticky-top" >
+        近期(2021年11月)則是疫情前的二分之一，每個月都只能飛1~2次左右，其他時間都在隔離或自主健康管理。
+        <br>整體來說，一次的長途飛行除了出勤的4天，還包含5天的隔離及9天在家自主管理。總計8成以上的時間，只能待在室內空間不能出門。
+
+      </div>
+    </div>
+  </div>
+  <div id="p2" style="height:130vh">
+    <div style="font-size: 20px;color: white;font-weight: bold;position: relative;left:20px;width: 500px;top: 150px;background-color: rgba(0,0,0, 0.7);">
+    Emma說，在華航機師群眾感染事件爆發時，大眾只看見少數不遵守規定的機組人員，事實上，9成9的組員都很遵守疾管署的規定。
+    </div>
+    <div style="font-size: 20px;color: white;font-weight: bold;position: relative;left:20px;width: 500px;top: 200px;background-color: rgba(0,0,0, 0.7);">
+      一趟航程下來，很多機組人員都因為反覆地清洗、噴酒精，導致手部脫皮。只是，民眾不會看到這些畫面。</div>
+      <div style="font-size: 20px;color: white;font-weight: bold;position: relative;left:20px;width: 500px;top: 400px;background-color: rgba(0,0,0, 0.7);">
+        疫情持續延燒，距離航空業復甦、機組人員生活恢復正常，仍有一段距離。</div>
+  </div>
+  </div>
+  <div style="height:10vh;background-color: black;text-align: center;color: white;font-weight: bold;">
+    文字:何汶、胡芸瑄、傅書軒 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;網頁設計:傅書軒
+    <br>2021/12/13報導
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script>
+    $(function () {
+      $(window).scroll(function () {
+        var scrollable = $("#outer").height()-$(window).height();
+        var current_pos = $(window).scrollTop();
+        var out_pos= $("#wrapper").parent().offset().top;
+        var chin_pos= current_pos - out_pos;
+        var tx_pos= $(".tx1").offset().top;
+        var tx_h= $(".tx1").height();
+        console.log(out_pos);
+        if(current_pos>out_pos){
+          $(".opa").each(function () {
+            $(this).css("opacity",$(this).data("pos")-(3*chin_pos)/scrollable);
+           }); 
+        };
+      });
+    });
+  </script>
+</body>
+
+</html>
